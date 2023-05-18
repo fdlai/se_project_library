@@ -234,3 +234,84 @@
   font-size: 14px;
   margin: 0;
 }
+
+.staff {
+  background-image: url("../images/staff_picks_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.staff__title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 100px;
+  background-color: red;
+}
+
+.staff__subtitle {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.staff__cards {
+  padding: 0;
+  margin: 68px auto 100px auto;
+  max-width: 760px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.card {
+  width: 360px;
+  height: 420px;
+  background-color: #fff;
+  position: relative;
+}
+
+.card__content {
+  margin: 40px 50px 10px 50px;
+}
+
+.card__footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  width: 260px;
+}
+
+.membership {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.membership__title {
+  margin: 100px auto 100px auto;
+  font-size: 50px;
+  width: 700px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.membership__steps {
+  display: flex;
+  gap: 40px;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0 40px 0 40px;
+}
+
+.step {
+  flex-basis: 220px; /* could also put width here */
+}
